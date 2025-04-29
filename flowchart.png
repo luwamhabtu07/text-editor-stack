@@ -1,0 +1,16 @@
+[Start] 
+   ↓
+[Choose operation: Add, Delete, or Undo?]
+   ↓
+ ┌─────────────┬─────────────────┬─────────────┐
+ │             │                 │             │
+ ▼             ▼                 ▼             ▼
+[Add Character] [Delete Character] [Undo Last Operation]
+    ↓                 ↓                   ↓
+[Push "add" to stack] [Push "delete" to stack] [Pop last op from stack]
+    ↓                 ↓                   ↓
+[Update text]      [Update text]         [Revert text]
+    ↓                 ↓                   ↓
+[Display updated text]
+    ↓
+[End or another operation?]

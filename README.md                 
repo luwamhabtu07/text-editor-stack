@@ -1,0 +1,18 @@
+# Simple Text Editor with Undo (Stack-based)
+
+## 🧠 Objective
+A terminal-based text editor that supports:
+- Adding characters
+- Deleting the last character
+- Undoing the last operation using a stack
+
+## 📂 Project Structure
+- `text_editor.py`: Core logic
+- `test_text_editor.py`: Unit tests
+- `flowchart.png`: Operation flowchart
+- `clarifying_questions.md`: Clarifying assumptions
+- `complexity_analysis.md`: Time and space analysis
+
+## ▶️ How to Run
+```bash
+python3 text_editor.py
